@@ -1,3 +1,5 @@
+import { NavLink, Link } from "react-router";
+
 function Footer() {
   return (
     <footer className="bg-primary text-white mt-16">
@@ -37,24 +39,25 @@ function Footer() {
             <h3 className="font-bold font-heading mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm text-white/70">
               <li>
-                <a className="hover:text-white" href="#">
-                  About Us
-                </a>
+                <NavLink to={"/about"}>
+                  <a className="hover:text-white" href="#">
+                    About Us
+                  </a>
+                </NavLink>
               </li>
               <li>
-                <a className="hover:text-white" href="#">
-                  Services
-                </a>
+                <NavLink to={"/services"}>
+                  <a className="hover:text-white" href="#">
+                    Services
+                  </a>
+                </NavLink>
               </li>
               <li>
-                <a className="hover:text-white" href="#">
-                  Testimonials
-                </a>
-              </li>
-              <li>
-                <a className="hover:text-white" href="#">
-                  Contact
-                </a>
+                <NavLink to={"/contact"}>
+                  <a className="hover:text-white" href="#">
+                    Contact
+                  </a>
+                </NavLink>
               </li>
             </ul>
           </div>
