@@ -51,7 +51,7 @@ function InquiryForm() {
         Quick Inquiry
       </h3>
       <form
-        name="inquiry"
+        name="Inquiry"
         method="POST"
         data-netlify="true"
         className="space-y-4"

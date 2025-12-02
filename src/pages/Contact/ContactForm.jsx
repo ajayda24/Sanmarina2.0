@@ -1,6 +1,4 @@
 function ContactForm() {
-
-
   return (
     <div
       className="flex flex-col gap-6 p-6 sm:p-8 bg-white dark:bg-background-dark rounded-xl shadow-sm border border-gray-200 dark:border-gray-800"
@@ -13,7 +11,7 @@ function ContactForm() {
         Send us a Message
       </h3>
       <form
-        name="contact"
+        name="Contact"
         method="POST"
         data-netlify="true"
         className="grid grid-cols-1 gap-4"
