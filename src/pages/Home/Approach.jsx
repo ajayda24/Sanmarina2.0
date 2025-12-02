@@ -52,7 +52,13 @@ function InquiryForm() {
           Quick Inquiry
         </h3>
       </div>
-      <div className="bg-background-light/5 dark:bg-background-dark/50 p-8 rounded-xl border border-text-light/10 dark:border-text-dark/10 shadow-lg">
+      <div
+        className="bg-background-light/5 dark:bg-background-dark/50 p-8 rounded-xl border border-text-light/10 dark:border-text-dark/10 shadow-lg"
+        style={{
+          backgroundImage:
+            "linear-gradient(145deg, rgba(0, 201, 255, 0), rgba(0, 201, 255, 0.15) 100%)",
+        }}
+      >
         <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
           <div>
             <label
