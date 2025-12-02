@@ -29,17 +29,20 @@ function WhyChoose() {
 
   return (
     <section>
+      <h4 className="text-accent text-xs text-center m-2">WHY SANMARINA</h4>
       <h2 className="text-text-light dark:text-text-dark text-3xl font-bold font-heading leading-tight tracking-[-0.015em] pb-8 text-center">
-        Why Choose Sanmarina
+        Why Choose Sanmarina?
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8">
         {reasons.map((r) => (
           <div key={r.title} className="flex items-start gap-4">
-            <div className="shrink-0 size-8 flex items-center justify-center rounded-full bg-primary/10 text-primary">
-              <span className="material-symbols-outlined">{r.icon}</span>
+            <div className="shrink-0 size-10 flex items-center justify-center rounded-full bg-accent/10 text-primary">
+              <span className="material-symbols-outlined text-[#01bcf0]">
+                {r.icon}
+              </span>
             </div>
             <div>
-              <h3 className="font-bold text-text-light dark:text-text-dark">
+              <h3 className="font-bold text-primary dark:text-text-dark">
                 {r.title}
               </h3>
               <p className="text-sm text-text-muted-light dark:text-text-muted-dark">

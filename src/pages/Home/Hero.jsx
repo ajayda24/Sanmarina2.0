@@ -10,7 +10,8 @@ function Hero() {
     >
       <div className="flex flex-col gap-4 text-left max-w-3xl">
         <h1 className="text-white text-4xl sm:text-5xl font-black font-heading leading-tight tracking-[-0.033em]">
-          Best Educational Consultancy in Calicut
+          Best Educational Consultancy in
+          <span className="text-accent text-4xl sm:text-5xl"> Calicut</span>
         </h1>
         <p className="text-white/90 text-base sm:text-lg font-normal leading-normal">
           Helping students choose the right colleges and courses with clarity

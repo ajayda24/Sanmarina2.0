@@ -26,16 +26,21 @@ function Navbar() {
               </defs>
             </svg>
           </div>
-          <h2 className="font-display text-xl font-bold text-primary dark:text-white">
-            <Link to={"/"}>Sanmarina</Link>
-          </h2>
+          <div>
+            <h2 className="font-display text-xl font-bold text-primary dark:text-white">
+              <Link to={"/"}>Sanmarina</Link>
+            </h2>
+            <p className="text-accent text-xs font-light">
+              Guidance Towards Growth
+            </p>
+          </div>
         </div>
 
         <nav className="hidden items-center gap-8 md:flex">
           <NavLink
             to={"/"}
             className={({ isActive }) =>
-              `font-display text-sm font-medium  hover:text-primary dark:text-text-dark dark:hover:text-secondary ${
+              `font-display text-sm font-medium  hover:text-accent dark:text-text-dark dark:hover:text-secondary ${
                 isActive ? "text-primary" : "text-text-light"
               }`
             }
@@ -45,7 +50,7 @@ function Navbar() {
           <NavLink
             to={"/about"}
             className={({ isActive }) =>
-              `font-display text-sm font-medium  hover:text-primary dark:text-text-dark dark:hover:text-secondary ${
+              `font-display text-sm font-medium  hover:text-accent dark:text-text-dark dark:hover:text-secondary ${
                 isActive ? "text-primary" : "text-text-light"
               }`
             }
@@ -55,7 +60,7 @@ function Navbar() {
           <NavLink
             to={"/services"}
             className={({ isActive }) =>
-              `font-display text-sm font-medium  hover:text-primary dark:text-text-dark dark:hover:text-secondary ${
+              `font-display text-sm font-medium  hover:text-accent dark:text-text-dark dark:hover:text-secondary ${
                 isActive ? "text-primary" : "text-text-light"
               }`
             }
@@ -65,7 +70,7 @@ function Navbar() {
           <NavLink
             to={"/contact"}
             className={({ isActive }) =>
-              `font-display text-sm font-medium  hover:text-primary dark:text-text-dark dark:hover:text-secondary ${
+              `font-display text-sm font-medium  hover:text-accent dark:text-text-dark dark:hover:text-secondary ${
                 isActive ? "text-primary" : "text-text-light"
               }`
             }
@@ -75,7 +80,7 @@ function Navbar() {
         </nav>
 
         <button
-          className="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-wide transition-transform hover:scale-105 font-display"
+          className="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-wide transition-transform hover:scale-105 font-display hover:bg-accent"
           aria-label="book-consultation"
         >
           <span className="truncate">Book a Consultation</span>

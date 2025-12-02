@@ -23,7 +23,8 @@ function CoreValues() {
   ];
 
   return (
-    <section className="py-16 text-center">
+    <section className="py-12 text-center">
+      <h4 className="text-accent text-xs text-center m-2">WHAT DRIVES US</h4>
       <h2 className="text-3xl md:text-4xl font-bold font-heading mb-12 text-neutral-text dark:text-white">
         Our Core Values
       </h2>

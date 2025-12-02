@@ -6,7 +6,13 @@ function ContactForm() {
   }
 
   return (
-    <div className="flex flex-col gap-6 p-6 sm:p-8 bg-white dark:bg-background-dark rounded-xl shadow-sm border border-gray-200 dark:border-gray-800">
+    <div
+      className="flex flex-col gap-6 p-6 sm:p-8 bg-white dark:bg-background-dark rounded-xl shadow-sm border border-gray-200 dark:border-gray-800"
+      style={{
+        backgroundImage:
+          "linear-gradient(145deg, rgba(0, 201, 255, 0), rgba(0, 201, 255, 0.15) 100%)",
+      }}
+    >
       <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
         Send us a Message
       </h3>

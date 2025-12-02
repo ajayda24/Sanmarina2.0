@@ -30,7 +30,7 @@ function Footer() {
               </div>
               <h2 className="text-xl font-bold font-heading">Sanmarina</h2>
             </div>
-            <p className="text-sm text-white/70">
+            <p className="text-sm text-[#00c8ffd0]">
               Your trusted partner in education.
             </p>
           </div>
@@ -39,17 +39,17 @@ function Footer() {
             <h3 className="font-bold font-heading mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm text-white/70">
               <li>
-                <NavLink to={"/about"} className="hover:text-white">
+                <NavLink to={"/about"} className="hover:text-accent">
                   About Us
                 </NavLink>
               </li>
               <li>
-                <NavLink to={"/services"} className="hover:text-white">
+                <NavLink to={"/services"} className="hover:text-accent">
                   Services
                 </NavLink>
               </li>
               <li>
-                <NavLink to={"/contact"} className="hover:text-white">
+                <NavLink to={"/contact"} className="hover:text-accent">
                   Contact
                 </NavLink>
               </li>
@@ -80,7 +80,7 @@ function Footer() {
             <h3 className="font-bold font-heading mb-4">Follow Us</h3>
             <div className="flex gap-4">
               <a
-                className="text-white/70 hover:text-white"
+                className="text-white/70 hover:text-accent"
                 href="#"
                 aria-label="twitter"
               >
@@ -93,7 +93,7 @@ function Footer() {
                 </svg>
               </a>
               <a
-                className="text-white/70 hover:text-white"
+                className="text-white/70 hover:text-accent"
                 href="#"
                 aria-label="facebook"
               >
@@ -109,7 +109,7 @@ function Footer() {
                 </svg>
               </a>
               <a
-                className="text-white/70 hover:text-white"
+                className="text-white/70 hover:text-accent"
                 href="#"
                 aria-label="instagram"
               >

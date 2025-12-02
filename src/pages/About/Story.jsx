@@ -12,8 +12,14 @@ function Story() {
             data-alt="A professional and friendly team of educational consultants smiling in a modern office setting."
           ></div>
         </div>
-        <div className="flex-1">
-          <h2 className="text-primary dark:text-accent text-sm font-bold font-heading uppercase tracking-wider mb-2">
+        <div
+          className="flex-1 p-6 rounded-xl py-18"
+          style={{
+            backgroundImage:
+              "linear-gradient(135deg, rgba(0, 201, 255, 0), rgba(0, 201, 255, 0.2) 150%)",
+          }}
+        >
+          <h2 className="text-accent dark:text-accent text-sm font-bold font-heading uppercase tracking-wider mb-2">
             Our Story
           </h2>
           <h3 className="text-3xl md:text-4xl font-bold font-heading mb-6 text-neutral-text dark:text-white">

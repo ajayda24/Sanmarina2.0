@@ -5,7 +5,7 @@ function CTA() {
         className="text-center bg-white dark:bg-neutral-800 p-10 md:p-16 rounded-xl shadow-sm border border-gray-200 dark:border-neutral-700"
         style={{
           backgroundImage:
-            "linear-gradient(45deg, rgba(0, 201, 255, 0.05), rgba(0, 201, 255, 0) 50%)",
+            "linear-gradient(45deg, rgba(0, 201, 255, 0.1), rgba(0, 201, 255, 0) 170%)",
         }}
       >
         <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4 text-neutral-text dark:text-white">

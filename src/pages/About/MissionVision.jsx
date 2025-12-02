@@ -2,7 +2,7 @@ function MissionVision() {
   return (
     <section className="py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="bg-white dark:bg-neutral-800 p-8 rounded-xl shadow-sm border border-gray-200 dark:border-neutral-700">
+        <div className="bg-[#00c8ff0b] dark:bg-neutral-800 p-8 rounded-xl shadow-sm border border-gray-200 dark:border-neutral-700">
           <h3 className="text-2xl md:text-3xl font-bold font-heading mb-4 text-neutral-text dark:text-white">
             Our Mission
           </h3>

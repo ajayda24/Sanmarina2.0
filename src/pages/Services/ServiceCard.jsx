@@ -1,6 +1,12 @@
 function ServiceCard({ title, desc, img, cta }) {
   return (
-    <div className="flex flex-col rounded-xl bg-white shadow-lg transition-shadow hover:shadow-2xl dark:bg-slate-800">
+    <div
+      className="flex flex-col rounded-xl bg-white shadow-lg transition-shadow hover:shadow-2xl dark:bg-slate-800"
+      style={{
+        backgroundImage:
+          "linear-gradient(180deg, rgba(0, 201, 255, 0), rgba(0, 201, 255, 0.15) 120%)",
+      }}
+    >
       <div className="relative h-56 w-full overflow-hidden rounded-t-xl">
         <div className="absolute inset-0 bg-secondary/20" />
         <img className="h-full w-full object-cover" src={img} alt={title} />
@@ -15,7 +21,7 @@ function ServiceCard({ title, desc, img, cta }) {
         <ul className="mt-4 flex-1 space-y-2">
           {/* Placeholder: the original HTML had three list items per card. Keep flexible. */}
         </ul>
-        <button className="mt-6 flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary/10 text-primary text-sm font-bold transition-colors hover:bg-primary hover:text-white dark:bg-secondary/20 dark:text-secondary dark:hover:bg-secondary dark:hover:text-primary font-display">
+        <button className="mt-6 flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-white text-primary text-sm font-bold transition-colors hover:bg-[#00abdbcd] hover:text-white dark:bg-secondary/20 dark:text-secondary dark:hover:bg-secondary dark:hover:text-primary font-display">
           {cta}
         </button>
       </div>
