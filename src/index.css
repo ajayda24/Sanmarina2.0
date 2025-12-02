@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@config "../tailwind.config.cjs";
+
+:root {
+  color-scheme: light;
+}
+
 body {
   font-family: "Lexend", sans-serif;
 }
