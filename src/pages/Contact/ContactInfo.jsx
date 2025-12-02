@@ -1,13 +1,7 @@
 function ContactInfo() {
   return (
-    <div
-      className="flex flex-col gap-6 p-6 sm:p-8 bg-white dark:bg-background-dark rounded-xl shadow-sm border border-gray-200 dark:border-gray-800"
-      style={{
-        backgroundImage:
-          "linear-gradient(-145deg, rgba(0, 201, 255, 0), rgba(0, 201, 255, 0.15) 100%)",
-      }}
-    >
-      <div className="flex items-center gap-4 mt-6">
+    <div className="flex flex-col gap-6 p-6 sm:p-8 bg-white dark:bg-background-dark rounded-xl shadow-sm border border-gray-200 dark:border-gray-800">
+      <div className="flex items-center gap-4 mt-10">
         <div className="text-primary dark:text-accent flex items-center justify-center rounded-lg bg-primary/10 dark:bg-accent/10 shrink-0 size-12">
           <span className="material-symbols-outlined">location_on</span>
         </div>
