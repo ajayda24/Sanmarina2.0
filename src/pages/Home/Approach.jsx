@@ -56,7 +56,7 @@ function InquiryForm() {
         data-netlify="true"
         className="space-y-4"
       >
-        <input type="hidden" name="form-name" value="inquiry" />
+        <input type="hidden" name="form-name" value="Inquiry" />
         <div>
           <label
             className="text-sm font-medium text-text-muted-light dark:text-text-muted-dark"

@@ -16,7 +16,7 @@ function ContactForm() {
         data-netlify="true"
         className="grid grid-cols-1 gap-4"
       >
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="Contact" />
         <div>
           <label
             className="text-sm font-medium text-gray-700 dark:text-gray-300"
