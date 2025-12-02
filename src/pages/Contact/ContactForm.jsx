@@ -29,7 +29,7 @@ function ContactForm() {
             name="name"
             type="text"
             placeholder="John Doe"
-            className="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white shadow-sm focus:border-primary focus:ring-primary focus:ring-opacity-50"
+            className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white shadow-sm focus:border-primary focus:ring-primary focus:ring-opacity-50"
           />
         </div>
         <div>
@@ -44,7 +44,7 @@ function ContactForm() {
             name="email"
             type="email"
             placeholder="john.doe@example.com"
-            className="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white shadow-sm focus:border-primary focus:ring-primary focus:ring-opacity-50"
+            className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white shadow-sm focus:border-primary focus:ring-primary focus:ring-opacity-50"
           />
         </div>
         <div>
@@ -59,7 +59,7 @@ function ContactForm() {
             name="subject"
             type="text"
             placeholder="Inquiry about Services"
-            className="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white shadow-sm focus:border-primary focus:ring-primary focus:ring-opacity-50"
+            className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white shadow-sm focus:border-primary focus:ring-primary focus:ring-opacity-50"
           />
         </div>
         <div>
@@ -74,12 +74,12 @@ function ContactForm() {
             name="message"
             rows={4}
             placeholder="Your message here..."
-            className="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white shadow-sm focus:border-primary focus:ring-primary focus:ring-opacity-50"
+            className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white shadow-sm focus:border-primary focus:ring-primary focus:ring-opacity-50"
           />
         </div>
         <button
           type="submit"
-          className="w-full flex items-center justify-center rounded-lg h-12 px-6 bg-primary text-white font-bold text-base hover:bg-opacity-90 transition-colors"
+          className="w-full flex items-center justify-center rounded-md h-12 px-6 bg-primary text-white font-bold text-base hover:bg-opacity-90 transition-colors"
         >
           Send Message
         </button>

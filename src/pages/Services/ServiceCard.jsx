@@ -21,7 +21,7 @@ function ServiceCard({ title, desc, img, cta }) {
         <ul className="mt-4 flex-1 space-y-2">
           {/* Placeholder: the original HTML had three list items per card. Keep flexible. */}
         </ul>
-        <button className="mt-6 flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-white text-primary text-sm font-bold transition-colors hover:bg-primary hover:text-white dark:bg-secondary/20 dark:text-secondary dark:hover:bg-secondary dark:hover:text-primary font-display">
+        <button className="mt-6 flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold transition-colors hover:bg-primary/90 hover:text-white dark:bg-secondary/20 dark:text-secondary dark:hover:bg-secondary dark:hover:text-primary font-display">
           {cta}
         </button>
       </div>

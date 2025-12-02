@@ -56,7 +56,7 @@ function ContactInfo() {
       <div className="w-full border-t border-gray-200 dark:border-gray-800" />
 
       <button
-        className="w-full flex items-center justify-center gap-3 rounded-lg h-12 px-6 bg-green-500 text-white font-bold text-base hover:bg-green-600 transition-colors"
+        className="p-2 w-full flex items-center justify-center gap-3 rounded-lg px-6 bg-green-500 text-white font-bold text-base hover:bg-green-600 transition-colors"
         aria-label="whatsapp-chat"
       >
         <svg
