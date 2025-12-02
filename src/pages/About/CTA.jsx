@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 function CTA() {
   return (
     <section className="py-16">
