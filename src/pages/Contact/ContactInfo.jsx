@@ -1,3 +1,5 @@
+import { FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa6";
+
 function ContactInfo() {
   return (
     <div
@@ -71,51 +73,27 @@ function ContactInfo() {
         <span>Chat with us on WhatsApp</span>
       </button>
 
-      <div className="flex items-center justify-center gap-6 pt-4">
+      <div className="flex items-center justify-center gap-8 pt-4">
         <a
           className="text-gray-500 dark:text-gray-400 hover:text-accent dark:hover:text-accent transition-colors"
           href="#"
           aria-label="linkedin"
         >
-          <svg
-            fill="currentColor"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
-          </svg>
+          <FaLinkedin size={32} />
         </a>
         <a
           className="text-gray-500 dark:text-gray-400 hover:text-accent dark:hover:text-accent transition-colors"
           href="#"
-          aria-label="facebook"
+          aria-label="youtube"
         >
-          <svg
-            fill="currentColor"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-          </svg>
+          <FaYoutube size={32} />
         </a>
         <a
           className="text-gray-500 hover:text-accent transition-colors"
           href="#"
           aria-label="instagram"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-          >
-            <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 3a5.75 5.75 0 1 1 0 11.5 5.75 5.75 0 0 1 0-11.5zm0 1.5a4.25 4.25 0 1 0 0 8.5 4.25 4.25 0 0 0 0-8.5zm5.75-.88a1.12 1.12 0 1 1-2.25 0 1.12 1.12 0 0 1 2.25 0z" />
-          </svg>
+          <FaInstagram size={32} />
         </a>
       </div>
     </div>

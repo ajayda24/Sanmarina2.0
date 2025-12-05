@@ -63,34 +63,15 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-200/50 bg-white  dark:border-gray-800/50 dark:bg-background-dark/80">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <div className="flex items-center gap-4">
+        <div className="flex items-start gap-4">
           <Link to={"/"} onClick={() => setOpen(false)}>
-            <div className="h-8 w-8 text-primary dark:text-secondary">
-              {/* logo svg */}
-              <svg
-                fill="none"
-                viewBox="0 0 48 48"
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-full w-full"
-              >
-                <g clipPath="url(#clip0_6_330)">
-                  <path
-                    clipRule="evenodd"
-                    d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z"
-                    fill="currentColor"
-                    fillRule="evenodd"
-                  ></path>
-                </g>
-                <defs>
-                  <clipPath id="clip0_6_330">
-                    <rect fill="white" height="48" width="48" />
-                  </clipPath>
-                </defs>
-              </svg>
-            </div>
+            <img src="/icons/Blue.png" alt="Logo" width={25} />
           </Link>
 
-          <div className=" min-w-0 flex-col flex">
+          <Link to={"/"} onClick={() => setOpen(false)}>
+            <img src="/icons/Sanmarina-Dark.png" alt="Logo Title" width={140} />
+          </Link>
+          {/* <div className=" min-w-0 flex-col flex">
             <h2 className="font-display text-xl font-bold text-primary dark:text-white">
               <Link to={"/"} onClick={() => setOpen(false)}>
                 Sanmarina
@@ -99,7 +80,7 @@ function Navbar() {
             <p className="text-accent text-xs font-light">
               Guidance Towards Growth
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* Desktop nav */}

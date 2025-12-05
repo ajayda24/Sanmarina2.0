@@ -26,15 +26,15 @@ function Story() {
             Who We Are
           </h3>
           <p className="text-base text-neutral-text/80 dark:text-gray-300 leading-relaxed mb-4">
-            Sanmarina was founded with a simple yet powerful mission: to provide
-            students in Kerala with transparent, caring, and reliable guidance
-            on their educational journey.
+            Sanmarina is an education consultancy built from a simple belief
+            every student deserves honest, transparent and caring guidance when
+            choosing their future.
           </p>
           <p className="text-base text-neutral-text/80 dark:text-gray-300 leading-relaxed">
-            We understand the challenges and opportunities that lie ahead, and
-            we are dedicated to helping every student find their perfect path to
-            growth and success. Our team of experienced counselors is passionate
-            about education and committed to your future.
+            Sanmarina began when the founder personally helped students choose
+            the right colleges using genuine advice and real experience. What
+            started as personal guidance has now grown into a trusted education
+            and career partner.
           </p>
         </div>
       </div>

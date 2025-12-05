@@ -7,9 +7,8 @@ function MissionVision() {
             Our Mission
           </h3>
           <p className="text-base text-neutral-text/80 dark:text-gray-300 leading-relaxed">
-            To empower students with personalized, ethical, and comprehensive
-            guidance, enabling them to make informed decisions and achieve
-            admission into the best-fit universities worldwide.
+            To guide and support students and parents with genuine advice,
+            transparent processes and trusted pathways to meaningful education.
           </p>
         </div>
 
@@ -18,9 +17,8 @@ function MissionVision() {
             Our Vision
           </h3>
           <p className="text-base text-white/90 leading-relaxed">
-            To be the most trusted and respected educational consultancy in
-            Kerala, recognized for our unwavering commitment to student success
-            and our role in shaping future global leaders.
+            To become one of the most trusted education partners for learners
+            and parents seeking clarity, safety and confidence.
           </p>
         </div>
       </div>
