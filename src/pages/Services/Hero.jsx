@@ -1,6 +1,6 @@
 function Hero() {
   const bg =
-    'linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCU67IhhIyS2WTvtKiaEAwtsBFdB2ZrzPrOdBwtl209xX52YxEWBhjCDA3wYgOScCEQfkuoZsidanmvDVjq2cXE4XAk9_uObEUgRkH-txxlg4PgIUu3yeGOajHtUOnJUqpC4c42M_qSbbarZDb25z_f5fhYLtbqbyXUEdgChMYJoz5Jn_bOVQtBwBuCPi71D33tKJ84iJEqsXFFh_TMbUq052n2UB9MI5o7TD0NoU6Dibb9HWv_kVaToZzILx_a52eBRbclf0CdZGuo")';
+    'linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 100%), url("/meet.jpg")';
 
   return (
     <section className="mb-16 md:mb-24">

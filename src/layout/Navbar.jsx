@@ -65,10 +65,6 @@ function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <div className="flex items-start gap-4">
           <Link to={"/"} onClick={() => setOpen(false)}>
-            <img src="/icons/Blue.png" alt="Logo" width={25} />
-          </Link>
-
-          <Link to={"/"} onClick={() => setOpen(false)}>
             <img src="/icons/Sanmarina-Dark.png" alt="Logo Title" width={140} />
           </Link>
           {/* <div className=" min-w-0 flex-col flex">

@@ -9,10 +9,6 @@ function Footer() {
           <div>
             <div className="flex items-start gap-4">
               <Link to={"/"}>
-                <img src="/icons/White.png" alt="Logo" width={25} />
-              </Link>
-
-              <Link to={"/"}>
                 <img
                   src="/icons/Sanmarina-Full-White.png"
                   alt="Logo Title"
@@ -48,17 +44,17 @@ function Footer() {
             <ul className="space-y-2 text-sm text-white/70">
               <li className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-lg">mail</span>
-                info@sanmarina.com
+                info@sanmarinaoverseas.com
               </li>
               <li className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-lg">call</span>
-                +91 123 456 7890
+                +91 8590252808
               </li>
               <li className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-lg">
                   location_on
                 </span>
-                Kerala, India
+                Mangalakatt Building, Chevayur PO, Calicut – 673017
               </li>
             </ul>
           </div>

@@ -1,6 +1,6 @@
 function Hero() {
   const bg =
-    "linear-gradient(rgba(27, 54, 93, 0.7) 0%, rgba(27, 54, 93, 0.5) 100%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuDkA-GhfbjTEI3GNLFfqTnyZSVKnf_t22BQO3FbrK0u7f0A89CbCIdeesVarHFUSjCP-YoS0MIwMxTRBY1UPGCOSNCAhJV4_uO0fEfjQreHNMIk6FNrKmD8AjB6q7h0-K4drA0ANRV3dqUjcB1q0greD5cUgIyELRwPqeiXbEcPtsQ4ieY4FEirKv-ic75KEzTcqnZqXb_tG9w8AYGBOJAddSIBALqb9_Aysorki-KOzk5uxgIiCtWWif7iDdXWxVvF2PlqQtSfJ8Rm')";
+    "linear-gradient(rgba(27, 54, 93, 0.7) 0%, rgba(27, 54, 93, 0.5) 100%), url('/grad.jpg')";
 
   return (
     <section className="@container py-16 md:py-24">
