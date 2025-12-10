@@ -1,4 +1,10 @@
-import { FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import {
+  FaYoutube,
+  FaInstagram,
+  FaLinkedin,
+  FaFacebook,
+} from "react-icons/fa6";
+import { SOCIAL_LINKS } from "../../utils/constants";
 
 function ContactInfo() {
   return (
@@ -80,22 +86,33 @@ function ContactInfo() {
       <div className="flex items-center justify-center gap-8 pt-4">
         <a
           className="text-gray-500 dark:text-gray-400 hover:text-accent dark:hover:text-accent transition-colors"
-          href="#"
+          href={SOCIAL_LINKS.facebook}
+          aria-label="facebook"
+          target="_blank"
+        >
+          <FaFacebook size={32} />
+        </a>
+        <a
+          className="text-gray-500 dark:text-gray-400 hover:text-accent dark:hover:text-accent transition-colors"
+          href={SOCIAL_LINKS.linkedin}
           aria-label="linkedin"
+          target="_blank"
         >
           <FaLinkedin size={32} />
         </a>
         <a
           className="text-gray-500 dark:text-gray-400 hover:text-accent dark:hover:text-accent transition-colors"
-          href="#"
+          href={SOCIAL_LINKS.youtube}
           aria-label="youtube"
+          target="_blank"
         >
           <FaYoutube size={32} />
         </a>
         <a
           className="text-gray-500 hover:text-accent transition-colors"
-          href="#"
+          href={SOCIAL_LINKS.instagram}
           aria-label="instagram"
+          target="_blank"
         >
           <FaInstagram size={32} />
         </a>

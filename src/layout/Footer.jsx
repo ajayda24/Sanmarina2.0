@@ -5,14 +5,9 @@ import {
   FaLinkedin,
   FaFacebook,
 } from "react-icons/fa6";
+import { SOCIAL_LINKS } from "../utils/constants";
 
 function Footer() {
-  const socialLinks = {
-    facebook: "https://www.facebook.com/sanmarinaoverseas",
-    linkedin: "https://www.linkedin.com/company/sanmarinaoverseas/",
-    youtube: "https://www.youtube.com/@SanmarinaOverseas",
-    instagram: "https://www.instagram.com/sanmarinaoverseas/",
-  };
   return (
     <footer className="bg-primary text-white mt-2">
       <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -76,7 +71,7 @@ function Footer() {
             <div className="flex gap-4">
               <a
                 className="text-white/70 hover:text-accent"
-                href={socialLinks.facebook}
+                href={SOCIAL_LINKS.facebook}
                 aria-label="facebook"
                 target="_blank"
               >
@@ -84,7 +79,7 @@ function Footer() {
               </a>
               <a
                 className="text-white/70 hover:text-accent"
-                href={socialLinks.linkedin}
+                href={SOCIAL_LINKS.linkedin}
                 aria-label="linkedin"
                 target="_blank"
               >
@@ -92,7 +87,7 @@ function Footer() {
               </a>
               <a
                 className="text-white/70 hover:text-accent"
-                href={socialLinks.youtube}
+                href={SOCIAL_LINKS.youtube}
                 aria-label="youtube"
                 target="_blank"
               >
@@ -100,7 +95,7 @@ function Footer() {
               </a>
               <a
                 className="text-white/70 hover:text-accent"
-                href={socialLinks.instagram}
+                href={SOCIAL_LINKS.instagram}
                 aria-label="instagram"
                 target="_blank"
               >
